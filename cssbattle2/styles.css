@@ -1,0 +1,122 @@
+/* Basic styles */
+
+
+
+body {
+    height: 100vh;
+    background-image: linear-gradient( #db0b5f, #6f00ed);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-card {
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .picture{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-top: -80px;
+    border-radius: 50%;
+    border: 2px solid rgb(218, 191, 191);
+    background-image: url("bean-bhai.png");
+  }
+  
+  
+  .profile-info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .profile-stats-main{
+    display: flex;
+    /* height: 50px; */
+    justify-content: space-evenly;
+  }
+  .profile-stats1, .profile-stats2, .profile-stats3,.profile-stats4{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    font-size: 01.5em;
+    color: #000000;
+    padding-left: 30px;
+
+  }
+  
+  /* Social links */
+  .profile-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-social a {
+    margin: 0 10px;
+    color: #333;
+  }
+  
+  .profile-social a:hover {
+    color: #000;
+  }
+  
+  .fab {
+    font-size: 1.5em;
+  }
+  
+  /* Profile actions */
+  .profile-actions {
+    margin-top: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-actions button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  
+  .profile-actions button:hover {
+    background-color: #ddd;
+  }
+  
+  /* You can customize the button colors here */
+  .profile-actions button:nth-child(1) {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .profile-actions button:nth-child(2) {
+    background-color: #00aced;
+    color: #fff;
+  }
+  .msg, .flw{
+    background-image: linear-gradient( #db0b5f, #6f00ed);
+  }
+  
